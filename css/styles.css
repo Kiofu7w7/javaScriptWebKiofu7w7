@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(246, 247, 235);
+}
+
+div.divMenu {
+    background: rgba(27, 32, 33);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav.Menu{
+    float: left;
+    display: table;  
+    float: none;
+    margin: auto;
+    text-align: center;
+}
+
+nav.Menu ul{
+    list-style: none;
+    overflow: hidden;
+    
+}
+
+nav.Menu  ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+
+nav.Menu  ul li a {
+    display: block; 
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#Logo{
+    color: rgb(229, 79, 109);
+}
+
+nav ul li:hover {
+    background: rgb(63, 136, 197);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
